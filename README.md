@@ -75,3 +75,7 @@ To set up the Vaccination Management System locally, follow these steps:
 1.  Configure the application properties with your database connection details.
 1.  Run the application.
 1.  Access the API endpoints using a tool like Swagger or Postman.
+
+ # Contributions
+ Contributions to the Vaccination Management System are welcome! If you encounter any issues or have suggestions
+ for improvement, please create a new issue or submit a pull request.
