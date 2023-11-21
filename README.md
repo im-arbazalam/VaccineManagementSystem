@@ -26,3 +26,16 @@ making it versatile and adaptable to various use cases.
 + Doctor
 - Appointment
 * VaccinationCentre
+
+# Technology and Tools used
++ **Java**
++ **Spring Boot**
++ **Spring Data Jpa**
++ **RESTful APIs**
++ **Hibernate(MySQL)**
++ **Postman**
++ **Swagger**
++ **Email Integration**
++ **Maven**
++ **Git & GitHub**
++ **Intellij**
