@@ -69,9 +69,9 @@ best practices such as encapsulation, modularity, and proper separation of conce
 # Setup and Installation
 To set up the Vaccination Management System locally, follow these steps:
 
-1. Clone the repository from GitHub.
-1. Open the project in your preferred IDE.
-1. Build the project to resolve dependencies.
-1. Configure the application properties with your database connection details.
-1. Run the application.
-1. Access the API endpoints using a tool like Swagger or Postman.
+1.  Clone the repository from GitHub.
+2.  Open the project in your preferred IDE.
+1.  Build the project to resolve dependencies.
+1.  Configure the application properties with your database connection details.
+1.  Run the application.
+1.  Access the API endpoints using a tool like Swagger or Postman.
