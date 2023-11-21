@@ -1,4 +1,4 @@
-# Vaccine Management System
+ # Vaccine Management System
 The Vaccine Management System (Backend) is a robust and efficient backend system developed using Spring Boot, Hibernate, JPA, and MySQL. It serves as the core component of a comprehensive vaccine management solution, focusing on managing data and providing APIs for seamless interaction with the system. This backend system plays a crucial role in tracking doctors, vaccination centers, appointments, and doses administered to users.
 
 # Features 
@@ -21,8 +21,8 @@ APIs: The system offers a robust set of more than 20 APIs that enable integratio
 making it versatile and adaptable to various use cases.
 
 # Models
--User
-*Dose
-+Doctor
--Appointment
-*VaccinationCentre
+- User
+* Dose
++ Doctor
+- Appointment
+* VaccinationCentre
