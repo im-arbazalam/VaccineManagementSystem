@@ -19,3 +19,10 @@ Dose Administration: Healthcare providers can record the doses administered to u
 
 APIs: The system offers a robust set of more than 20 APIs that enable integration with other systems and applications,
 making it versatile and adaptable to various use cases.
+
+# Models
+User
+Dose
+Doctor
+Appointment
+VaccinationCentre
