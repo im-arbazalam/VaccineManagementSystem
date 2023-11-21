@@ -21,8 +21,8 @@ APIs: The system offers a robust set of more than 20 APIs that enable integratio
 making it versatile and adaptable to various use cases.
 
 # Models
-*User
+-User
 *Dose
-*Doctor
-*Appointment
++Doctor
+-Appointment
 *VaccinationCentre
