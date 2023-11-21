@@ -43,3 +43,29 @@ making it versatile and adaptable to various use cases.
 # Overview of Project
 ## Flow Diagram
 ![VaccineMS](https://github.com/im-arbazalam/VaccineManagementSystem/assets/114339920/a5192219-3bd4-402c-afe5-c4b34bfe420d)
+
+# Usage
+Users, doctors, and vaccination center administrators can interact with the system through the web interface or by
+utilizing the provided APIs. Below are some common usage scenarios:
+User Registration: Users can create accounts and log in to book vaccination appointments.
+Doctor Registration: Healthcare professionals can register their profiles, making them available for appointment
+scheduling.
+Vaccination Center Management: Administrators can add, modify, or remove vaccination centers as needed.
+Appointment Booking: Users can search for available appointments and book slots convenient for them.
+Dose Administration: Doctors can record the doses administered to users, updating their vaccination status.
+API Integration: Developers can integrate the system with other applications or services using the provided APIs.
+
+# Code Organization
+The code for this Vaccination Management system can be organized into separate classes or packages for each entity,
+along with any necessary helper classes or functions. The code follow Object-Oriented Programming principles and 
+best practices such as encapsulation, modularity, and proper separation of concerns.
+
+# Setup and Installation
+To set up the Vaccination Management System locally, follow these steps:
+
+1 Clone the repository from GitHub.
+1 Open the project in your preferred IDE.
+1 Build the project to resolve dependencies.
+1 Configure the application properties with your database connection details.
+1 Run the application.
+1 Access the API endpoints using a tool like Swagger or Postman.
