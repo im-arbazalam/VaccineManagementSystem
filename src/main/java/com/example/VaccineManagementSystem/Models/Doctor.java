@@ -1,9 +1,13 @@
 package com.example.VaccineManagementSystem.Models;
 
 import com.example.VaccineManagementSystem.Enum.Gender;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @FieldDefaults(level= AccessLevel.PRIVATE)
 @Data
@@ -29,4 +33,14 @@ public class Doctor {
 
     @Column(unique = true)
     String emailId;
+
+    @JsonIgnore
+    @ManyToOne
+    @JoinColumn
+     VaccinationCenter vaccinationCenter;
+
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "doctor",cascade = CascadeType.ALL)
+    List<Appointment> appointmentList = new ArrayList<>();
 }

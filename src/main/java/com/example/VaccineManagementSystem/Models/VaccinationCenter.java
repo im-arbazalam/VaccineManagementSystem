@@ -1,10 +1,13 @@
 package com.example.VaccineManagementSystem.Models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
 import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @FieldDefaults(level= AccessLevel.PRIVATE)
@@ -16,22 +19,26 @@ import java.time.LocalTime;
 public class VaccinationCenter {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    int id;
 
 
-    private String centreName;
+    String centreName;
 
 
-    private LocalTime openingTime;
+    LocalTime openingTime;
 
 
-    private LocalTime closingTime;
+    LocalTime closingTime;
 
 
-    private String address;
+    String address;
 
 
-    private int doseCapacity;
+    int doseCapacity;
+
+    @JsonIgnore
+    @OneToMany(mappedBy ="vaccinationCenter",cascade=CascadeType.ALL)
+     List<Doctor> doctorList = new ArrayList<>();
 
 
 }

@@ -1,5 +1,6 @@
 package com.example.VaccineManagementSystem.Models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
@@ -17,12 +18,18 @@ import java.sql.Date;
 public class Dose {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id; //Primary Key
+    Integer id; //Primary Key
 
     @Column(unique = true)
-    private String doseId; //Unique
+    String doseId; //Unique
 
     @CreationTimestamp
-    private Date vaccinationDate;
+    Date vaccinationDate;
+
+    @JsonIgnore  //to stop infinite recursion
+    @OneToOne
+    @JoinColumn
+    User user;
+
 
 }
