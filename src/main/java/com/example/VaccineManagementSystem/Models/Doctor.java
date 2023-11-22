@@ -9,6 +9,7 @@ import lombok.experimental.FieldDefaults;
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
 @FieldDefaults(level= AccessLevel.PRIVATE)
 @Data
 @NoArgsConstructor
@@ -37,7 +38,7 @@ public class Doctor {
     @JsonIgnore
     @ManyToOne
     @JoinColumn
-     VaccinationCenter vaccinationCenter;
+    VaccinationCenter vaccinationCenter;
 
 
     @JsonIgnore

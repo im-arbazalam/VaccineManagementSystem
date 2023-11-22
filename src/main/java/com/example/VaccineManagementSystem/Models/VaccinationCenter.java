@@ -37,7 +37,7 @@ public class VaccinationCenter {
     int doseCapacity;
 
     @JsonIgnore
-    @OneToMany(mappedBy ="vaccinationCenter",cascade=CascadeType.ALL)
+    @OneToMany (mappedBy ="vaccinationCenter" ,cascade=CascadeType.ALL)
      List<Doctor> doctorList = new ArrayList<>();
 
 
