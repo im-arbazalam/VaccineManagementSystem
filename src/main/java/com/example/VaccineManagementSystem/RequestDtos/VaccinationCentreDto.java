@@ -1,5 +1,6 @@
 package com.example.VaccineManagementSystem.RequestDtos;
 
+import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalTime;
