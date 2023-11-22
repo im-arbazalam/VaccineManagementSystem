@@ -45,7 +45,7 @@ making it versatile and adaptable to various use cases.
 ![VaccineMS](https://github.com/im-arbazalam/VaccineManagementSystem/assets/114339920/a5192219-3bd4-402c-afe5-c4b34bfe420d)
 
 ## APIs Screen Shots
-![Screenshot (36)](https://github.com/im-arbazalam/VaccineManagementSystem/assets/114339920/b296d06a-dbd5-40d2-b68c-3672de0b2ca2)
+
 
 
 # Usage
