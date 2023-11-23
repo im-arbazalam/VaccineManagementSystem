@@ -80,3 +80,4 @@ To set up the Vaccination Management System locally, follow these steps:
  # Contributions
  Contributions to the Vaccination Management System are welcome! If you encounter any issues or have suggestions
  for improvement, please create a new issue or submit a pull request.
+
