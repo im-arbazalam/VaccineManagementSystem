@@ -16,11 +16,7 @@ select a suitable time slot.
 making it versatile and adaptable to various use cases.
 
 # Models
-- User
-* Dose
-+ Doctor
-- Appointment
-* VaccinationCentre
+- User, Dose, Doctor, Appointment, VaccinationCentre
 
 # Technology and Tools used
 + **Java**
