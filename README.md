@@ -4,19 +4,14 @@ The Vaccine Management System (Backend) is a robust and efficient backend system
 # Features 
 +  **User Management:** The system allows the registration and management of users who can book vaccination 
 appointments.
-
 +  **Doctor Management:** Healthcare professionals can register themselves, providing essential information for scheduling 
 appointments and administering vaccinations.
-
 +  **Vaccination Center Management:** The system maintains a database of vaccination centers, making it easier to allocate 
 appointments and vaccines efficiently.
-
 +  **Appointment Booking:** Users can schedule vaccination appointments, choose their preferred vaccination center, and 
 select a suitable time slot.
-
 +  **Dose Administration:** Healthcare providers can record the doses administered to users, ensuring accurate and up-to
 -date vaccination records.
-
 +  **APIs:** The system offers a robust set of more than 20 APIs that enable integration with other systems and applications,
 making it versatile and adaptable to various use cases.
 
