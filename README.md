@@ -46,21 +46,21 @@ making it versatile and adaptable to various use cases.
 
 
 # Usage
-Users, doctors, and vaccination center administrators can interact with the system through the web interface or by
+1.  Users, doctors, and vaccination center administrators can interact with the system through the web interface or by
 utilizing the provided APIs. Below are some common usage scenarios:
 
-User Registration: Users can create accounts and log in to book vaccination appointments.
+1.  User Registration: Users can create accounts and log in to book vaccination appointments.
 
-Doctor Registration: Healthcare professionals can register their profiles, making them available for appointment
+1.  Doctor Registration: Healthcare professionals can register their profiles, making them available for appointment
 scheduling.
 
-Vaccination Center Management: Administrators can add, modify, or remove vaccination centers as needed.
+1.  Vaccination Center Management: Administrators can add, modify, or remove vaccination centers as needed.
 
-Appointment Booking: Users can search for available appointments and book slots convenient for them.
+1.  Appointment Booking: Users can search for available appointments and book slots convenient for them.
 
-Dose Administration: Doctors can record the doses administered to users, updating their vaccination status.
+1.  Dose Administration: Doctors can record the doses administered to users, updating their vaccination status.
 
-API Integration: Developers can integrate the system with other applications or services using the provided APIs.
+1.  API Integration: Developers can integrate the system with other applications or services using the provided APIs.
 
 # Code Organization
 The code for this Vaccination Management system can be organized into separate classes or packages for each entity,
