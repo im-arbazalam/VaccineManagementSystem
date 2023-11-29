@@ -25,7 +25,7 @@ public class DoctorService {
     @Autowired
     VaccinationCenterRepository vaccinationCenterRepository;
     public String addDoctor(AddDoctorDto doctor) throws EmailIdEmptyException, DoctorAlreadyExistsException {
-
+        //this is some validation part
         if(doctor.getEmailId()==(null)){
             throw new EmailIdEmptyException("Email id is mandatory") ;
         }
