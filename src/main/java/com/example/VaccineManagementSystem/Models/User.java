@@ -25,7 +25,6 @@ public class User {
     String name;
 
     int age;
-
     String mobileNo;
 
     @Column(unique = true)

@@ -18,19 +18,13 @@ import java.util.List;
 @Builder
 public class Doctor {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) //auto generation and auto increment
     int docId;
-
-
     String name;
-
-
     int age;
-
 
     @Enumerated(EnumType.STRING)
     Gender gender;
-
 
     @Column(unique = true)
     String emailId;
@@ -39,7 +33,6 @@ public class Doctor {
     @ManyToOne
     @JoinColumn
     VaccinationCenter vaccinationCenter;
-
 
     @JsonIgnore
     @OneToMany(mappedBy = "doctor",cascade = CascadeType.ALL)

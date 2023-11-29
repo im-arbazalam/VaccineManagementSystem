@@ -21,19 +21,10 @@ public class VaccinationCenter {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
 
-
     String centreName;
-
-
     LocalTime openingTime;
-
-
     LocalTime closingTime;
-
-
     String address;
-
-
     int doseCapacity;
 
     @JsonIgnore
