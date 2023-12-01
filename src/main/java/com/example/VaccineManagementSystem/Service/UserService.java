@@ -70,7 +70,7 @@ public class UserService {
             throw new UserNotFound("User is not Present");
         }
         User user=optionalUserResponseDto.get();
-        UserResponseDto userResponseDto1=UserTransformer.ConvertEntityToEntity(user);
+        UserResponseDto userResponseDto1=UserTransformer.ConvertEntityToDto(user);
         return userResponseDto1;
     }
 

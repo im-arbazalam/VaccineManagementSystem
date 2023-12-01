@@ -34,6 +34,7 @@ public class UserController {
 
     @GetMapping("/date")
     public Date getDate (@RequestParam Integer userId){
+
         return service.getDate(userId);
     }
     @PutMapping("/updateEmail")
