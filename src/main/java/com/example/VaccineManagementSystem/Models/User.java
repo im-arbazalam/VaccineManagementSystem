@@ -18,11 +18,12 @@ import java.util.List;
 @Builder
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)//auto generated
     int userId;
 
     @Column(name = "user_name")
     String name;
+    String father_name;
 
     int age;
     String mobileNo;
@@ -36,7 +37,6 @@ public class User {
     @JsonIgnore
     @OneToOne(mappedBy = "user",cascade = CascadeType.ALL)
      Dose dose;
-
     @JsonIgnore
     @OneToMany(mappedBy = "user",cascade = CascadeType.ALL)
     List<Appointment> appointmentList = new ArrayList<>();
