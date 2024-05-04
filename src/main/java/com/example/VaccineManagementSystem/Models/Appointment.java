@@ -18,6 +18,7 @@ import java.time.LocalTime;
 @Builder
 public class Appointment {
     @Id
+    //comment
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
 
